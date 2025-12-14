@@ -91,6 +91,8 @@ const CardButton = styled.button`
   align-items: center;
   gap: 1rem;
 
+  font-family: "Marvin Visions";
+
   border-radius: 3rem;
   border: 1px solid transparent;
   background: var(--color-button-beige);

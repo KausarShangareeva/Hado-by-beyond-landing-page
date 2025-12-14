@@ -33,22 +33,22 @@ html {
 
   /* Маленькие планшеты / большие телефоны */
   ${respond("s-phone")} {
-    font-size: 46%;
+    font-size: 48%;
   }
 
   /* Средние телефоны */
   ${respond("m-phone")} {
-    font-size: 44%;
+    font-size: 46%;
   }
 
   /* Маленькие телефоны */
   ${respond("f-phone")} {
-    font-size: 42%;
+    font-size: 44%;
   }
 
   /* Самые маленькие телефоны */
   ${respond("xs-phone")} {
-    font-size: 40%;
+    font-size: 42%;
   }
 }
 
