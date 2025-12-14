@@ -14,70 +14,70 @@ import PaymentPlan from "./components/PaymentPlan";
 import FAQ from "./components/FAQ";
 import FooterMenu from "./components/Footer";
 
-const DragonIMG1 = styled.img`
-  position: absolute;
-  top: 24%;
-  left: 78.25%;
-  width: 30%;
-  height: auto;
-  object-fit: contain;
+// const DragonIMG1 = styled.img`
+//   position: absolute;
+//   top: 24%;
+//   left: 78.25%;
+//   width: 30%;
+//   height: auto;
+//   object-fit: contain;
 
-  @media (max-width: 1000px) {
-    display: none;
-  }
-`;
+//   @media (max-width: 1000px) {
+//     display: none;
+//   }
+// `;
 
-const DragonIMG2 = styled.img`
-  position: absolute;
-  top: 50%;
-  left: -11.6%;
-  width: 30%;
-  height: auto;
-  object-fit: contain;
+// const DragonIMG2 = styled.img`
+//   position: absolute;
+//   top: 50%;
+//   left: -11.6%;
+//   width: 30%;
+//   height: auto;
+//   object-fit: contain;
 
-  @media (max-width: 1000px) {
-    display: none;
-  }
-`;
+//   @media (max-width: 1000px) {
+//     display: none;
+//   }
+// `;
 
-const DragonIMG3 = styled.img`
-  position: absolute;
-  top: 60%;
-  left: 81.35%;
-  width: 30%;
-  height: auto;
-  object-fit: contain;
+// const DragonIMG3 = styled.img`
+//   position: absolute;
+//   top: 60%;
+//   left: 81.35%;
+//   width: 30%;
+//   height: auto;
+//   object-fit: contain;
 
-  @media (max-width: 1000px) {
-    display: none;
-  }
-`;
+//   @media (max-width: 1000px) {
+//     display: none;
+//   }
+// `;
 
-const DragonIMG4 = styled.img`
-  position: absolute;
-  top: 84%;
-  left: -11.6%;
-  width: 30%;
-  height: auto;
-  object-fit: contain;
+// const DragonIMG4 = styled.img`
+//   position: absolute;
+//   top: 84%;
+//   left: -11.6%;
+//   width: 30%;
+//   height: auto;
+//   object-fit: contain;
 
-  @media (max-width: 1000px) {
-    display: none;
-  }
-`;
+//   @media (max-width: 1000px) {
+//     display: none;
+//   }
+// `;
 
-const DragonIMG5 = styled.img`
-  position: absolute;
-  top: 96%;
-  left: 74%;
-  width: 35%;
-  height: auto;
-  object-fit: contain;
+// const DragonIMG5 = styled.img`
+//   position: absolute;
+//   top: 96%;
+//   left: 74%;
+//   width: 35%;
+//   height: auto;
+//   object-fit: contain;
 
-  @media (max-width: 1000px) {
-    display: none;
-  }
-`;
+//   @media (max-width: 1000px) {
+//     display: none;
+//   }
+// `;
 
 const Background = styled.div`
   max-width: 130rem;
@@ -127,11 +127,11 @@ export default function App() {
           <PreLaunch />
           <PhotoCarousel />
 
-          <DragonIMG1 src="/DragonIMG/Dragon-1.png" alt="Dragon" />
+          {/* <DragonIMG1 src="/DragonIMG/Dragon-1.png" alt="Dragon" />
           <DragonIMG2 src="/DragonIMG/Dragon-2.png" alt="Dragon" />
           <DragonIMG3 src="/DragonIMG/Dragon-3.png" alt="Dragon" />
           <DragonIMG4 src="/DragonIMG/Dragon-2.png" alt="Dragon" />
-          <DragonIMG5 src="/DragonIMG/Dragon-5.png" alt="Dragon" />
+          <DragonIMG5 src="/DragonIMG/Dragon-5.png" alt="Dragon" /> */}
 
           <AboutSiora />
           <SioraPhilosophy />
