@@ -91,7 +91,7 @@ const CardButton = styled.button`
   align-items: center;
   gap: 1rem;
 
-  font-family: "Marvin Visions";
+  font-family: "Montserrat";
 
   border-radius: 3rem;
   border: 1px solid transparent;

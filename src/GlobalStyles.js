@@ -28,27 +28,27 @@ html {
 
   /* Планшеты портрет */
   ${respond("tab-port")} {
-    font-size: 48%;
+    font-size: 50%;
   }
 
   /* Маленькие планшеты / большие телефоны */
   ${respond("s-phone")} {
-    font-size: 48%;
+    font-size: 50%;
   }
 
   /* Средние телефоны */
   ${respond("m-phone")} {
-    font-size: 46%;
+    font-size: 48%;
   }
 
   /* Маленькие телефоны */
   ${respond("f-phone")} {
-    font-size: 44%;
+    font-size: 46%;
   }
 
   /* Самые маленькие телефоны */
   ${respond("xs-phone")} {
-    font-size: 42%;
+    font-size: 44%;
   }
 }
 
