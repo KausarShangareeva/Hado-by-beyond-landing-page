@@ -6,11 +6,11 @@ export const GlobalStyles = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
  
   @font-face {
-    font-family: 'Marvin Visions';
-    src: url('./assets/MarvinVisions-Bold.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: 'Marvin Visions';
+  src: url('/fonts/MarvinVisions-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
   *, *::before, *::after {
     margin: 0;
@@ -18,33 +18,40 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
 
-  html {
-    font-size: 52.5%; /* базовый размер: 1rem = 8.4px */
+html {
+  font-size: 52.5%; /* базовый размер: 1rem = 8.4px */
 
-    ${respond("tab-land")} {
-      font-size: 50%; /* чуть меньше на больших экранах */
-    }
-
-    ${respond("tab-port")} {
-      font-size: 46%; /* планшеты портрет */
-    }
-
-    ${respond("s-phone")} {
-      font-size: 44%; /* маленькие планшеты / большие телефоны */
-    }
-
-    ${respond("m-phone")} {
-      font-size: 43%; /* средние телефоны */
-    }
-
-    ${respond("f-phone")} {
-      font-size: 42%; /* маленькие телефоны */
-    }
-
-    ${respond("xs-phone")} {
-      font-size: 40%; /* самые маленькие телефоны */
-    }
+  /* Большие десктопы / планшеты ландшафт */
+  ${respond("tab-land")} {
+    font-size: 50%; /* чуть меньше на больших экранах */
   }
+
+  /* Планшеты портрет */
+  ${respond("tab-port")} {
+    font-size: 48%;
+  }
+
+  /* Маленькие планшеты / большие телефоны */
+  ${respond("s-phone")} {
+    font-size: 46%;
+  }
+
+  /* Средние телефоны */
+  ${respond("m-phone")} {
+    font-size: 44%;
+  }
+
+  /* Маленькие телефоны */
+  ${respond("f-phone")} {
+    font-size: 42%;
+  }
+
+  /* Самые маленькие телефоны */
+  ${respond("xs-phone")} {
+    font-size: 40%;
+  }
+}
+
 
  body {
    padding: 0;
